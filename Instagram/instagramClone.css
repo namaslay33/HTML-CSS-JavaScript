@@ -1,0 +1,55 @@
+.container {
+    margin-top: 5%;
+    padding-top: 4%;
+   background-color:#cc0000;
+   border-radius: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.display-3{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 500px; */
+}
+
+.arrow{
+    font-size: 100px;
+}
+
+.main-image{
+    margin-bottom: 50px;
+}
+
+.main-image::before
+
+.imgSize {
+    width: 30%;
+}
+
+#phrase {
+    font-size: 30px;
+}
+
+#phrase, .footer{
+    text-align: center;
+}
+
+.character:hover{
+    background-color: yellow;
+    transform: scale(1.3);
+    transition: 0.3s ease-in-out;
+}
+
+.footer {
+    margin-top: 1%;
+}
+
+
+
