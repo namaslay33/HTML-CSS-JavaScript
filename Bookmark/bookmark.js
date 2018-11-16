@@ -20,6 +20,16 @@ function saveBookmark(e){
     // LocalStorage.removeItem('test');
     // console.log("After removal: " + LocalStorage.getItem('test'));
 
+    // Seeing if bookmarks is null
+    if(localStorage.getItem('bookmarks') === null){
+        //Creating array
+        var bookmarks = [];
+        //Adding value to array
+        bookmarks.push(bookmark);
+        //
+        localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+    }
+
     e.preventDefault();
     //prevents the form's default behavior; without this the form is actually submitting and will erase your console
 }
